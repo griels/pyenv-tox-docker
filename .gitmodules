@@ -1,0 +1,12 @@
+[submodule "pyenv"]
+	path = pyenv
+	url = https://github.com/pyenv/pyenv.git
+[submodule "pyenv-doctor"]
+	path = pyenv-doctor
+	url = https://github.com/pyenv/pyenv-doctor.git
+[submodule "pyenv-virtualenv"]
+	path = pyenv-virtualenv
+	url = https://github.com/pyenv/pyenv-virtualenv.git
+[submodule "pyenv-which-ext"]
+	path = pyenv-which-ext
+	url = https://github.com/pyenv/pyenv-which-ext.git
