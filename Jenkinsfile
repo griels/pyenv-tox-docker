@@ -106,7 +106,7 @@ pipeline {
                     sh 'git config user.email "contact@thomas-illiet.fr"'
                     sh 'git commit -m ":wrench: Update current commit ID to $remoteCommitID"'
                     sh 'git config --global push.default simple'
-                    sh 'git push https://$USERNAME:$PASSWORD@github.com/thomas-illiet/feedbin-refresher-docker.git HEAD:master'
+                    sh 'git push https://$USERNAME:$PASSWORD@github.com/thomas-illiet/pyenv-tox-docker.git HEAD:master'
                 }
             }
         }
